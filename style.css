@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #faf7f2; 
+  color: #2c2c2c;
+}
+
+
+nav {
+  padding: 0 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black; 
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+nav .logo {
+  color: #b7e4c7;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d8f3dc;
+  font-size: 14px;
+  font-weight: 600;
+}
+h2 {
+  font-family: 'Bungee';
+  font-weight: bold;
+  font-size: 35px;
+}
+.dan-dong {
+  line-height: 300%;
+  margin: 0 auto;
+  align-items: center;
+
+
+}
+.line-deco {
+  width: 100px;
+  height: 1px;
+  background-color: #1b4332;
+  opacity: 0.3;
+}
+.container-trich-dan {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.duong-ke {
+  height: 2px;
+  background-color: #d1d1d1;
+  border-top: 1px dashed #95d5b2;
+  margin: 40px 0;
+}
+.container-can-doi {
+  max-width: 1140px; 
+  margin: 0 auto;   
+  display: flex;
+  align-items: center;
+  gap: 60px;         
+  padding: 0 20px;
+}
+/* Banner */
+.banner {
+  height: 60vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+              url('img/banner.jpg') center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 { 
+  font-weight: bold;
+  font-size: 50px; 
+  margin-bottom: 10px; 
+}
+
+.btn-kham-pha {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #52b788;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.section-lich-su {
+  background-color: #e5e5e1;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+
+
+
+.chu-thich {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+
+.cot-anh {
+  flex: 1;
+}
+
+.cot-anh img {
+  width: 100%;
+  display: block;
+  border: 1px solid #333; 
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
+}
+
+.cot-chu {
+  flex: 1.2;
+  text-align: justify; 
+}
+
+.icons-trang-tri {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.section-dia-ly {
+  padding: 60px 40px;
+}
+
+
+
+.danh-sach-vuong {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.danh-sach-vuong li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.danh-sach-vuong li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+}
+.container-bang {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.bang-khoang-cach {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+}
+
+.bang-khoang-cach th, .bang-khoang-cach td {
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: left;
+}
+
+.bang-khoang-cach th {
+  background-color: #fff;
+  color: #888;
+  font-weight: normal;
+}
+
+.ghi-chu-bang {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.section-dia-diem {
+  background-color: #e5e5e1;
+  padding: 60px 40px;
+}
+.danh-sach {
+  display: flex;
+  gap: 20px;           
+  justify-content: center;
+  padding: 40px;
+}
+
+.the {
+  flex: 1;           
+  background: #fff;
+  border-radius: 15px; 
+  padding: 30px 20px;
+  position: relative;   
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.so-thu-tu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #1b4332; 
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 0 15px 0; 
+  font-weight: bold;
+}
+
+.the img {
+  width: 100%;          
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #081c15;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer p { font-size: 13px; opacity: 0.7; }
+
+@media (max-width: 768px) {
+  .container-lich-su { flex-direction: column; }
+  .icons-trang-tri { flex-direction: row; justify-content: center; }
+}
