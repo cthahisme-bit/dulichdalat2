@@ -7,7 +7,7 @@
 body {
   font-family: Montserrat, 'Segoe UI', Arial, sans-serif;
   line-height: 1.6;
-  background-color: #faf7f2; 
+  background-color: #C5D89D; 
   color: #2c2c2c;
 }
 
@@ -17,7 +17,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: black; 
+  background-color: #1b4332; 
   height: 60px;
   display: flex;
   align-items: center;
@@ -26,7 +26,7 @@ nav {
 }
 
 nav .logo {
-  color: #b7e4c7;
+  color: #FAE251;
   font-size: 22px;
   font-weight: bold;
 }
@@ -39,14 +39,14 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #d8f3dc;
-  font-size: 14px;
+  color: #FAE251;
+  font-size: 16px;
   font-weight: 600;
 }
 h2 {
   font-family: 'Bungee';
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
 }
 .dan-dong {
   line-height: 300%;
@@ -75,14 +75,7 @@ h2 {
   border-top: 1px dashed #95d5b2;
   margin: 40px 0;
 }
-.container-can-doi {
-  max-width: 1140px; 
-  margin: 0 auto;   
-  display: flex;
-  align-items: center;
-  gap: 60px;         
-  padding: 0 20px;
-}
+
 /* Banner */
 .banner {
   height: 60vh;
@@ -108,12 +101,22 @@ h2 {
   background-color: #52b788;
   color: white;
   text-decoration: none;
+  font-weight: 600;        
+  transition: all 0.3s ease; 
   border-radius: 25px;
+}
+.btn-kham-pha:hover {
+  background-color: #47a77d; 
+  transform: translateY(-2px); 
+  box-shadow: 0 8px 25px rgba(82,183,136,0.6);
 }
 
 .section-lich-su {
-  background-color: #e5e5e1;
+  background-color:#9AD872;
+  font-weight: 600; 
   padding: 80px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(82,183,136,0.4);
 }
 
 .container {
@@ -151,13 +154,6 @@ h2 {
   text-align: justify; 
 }
 
-.icons-trang-tri {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  font-size: 18px;
-  padding-left: 10px;
-}
 .section-dia-ly {
   padding: 60px 40px;
 }
@@ -270,5 +266,4 @@ footer p { font-size: 13px; opacity: 0.7; }
 
 @media (max-width: 768px) {
   .container-lich-su { flex-direction: column; }
-  .icons-trang-tri { flex-direction: row; justify-content: center; }
 }
